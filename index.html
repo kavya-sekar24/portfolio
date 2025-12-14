@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya Sekar | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">KS</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-frame">
+                        <img src="profile.jpg" alt="Kavya Sekar" class="hero-image" onerror="this.src='https://ui-avatars.com/api/?name=Kavya+Sekar&size=300&background=8B7E9B&color=fff&font-size=0.35'">
+                    </div>
+                    <div class="hero-image-accent"></div>
+                </div>
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Kavya Sekar</h1>
+                    <p class="hero-role">Student | M.Sc Software Systems</p>
+                    <p class="hero-tagline">Building software that makes a difference, one line of code at a time.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro">Nice to meet you!</p>
+                        <p>I am Kavya Sekar, an M.Sc Software Systems student at Kongu Engineering College with a strong passion for building meaningful software solutions. I enjoy working across the full development lifecycle — from designing intuitive user interfaces to developing efficient backend logic.</p>
+                        <p>I have hands-on experience in web, mobile, and data-driven applications, and I am particularly interested in applying technology to solve real-world problems. I value teamwork, continuous learning, and writing clean, well-documented code.</p>
+                        <p>When I'm not coding, you'll find me exploring new technologies, collaborating with peers on exciting projects, or diving deep into data science concepts.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <span class="highlight-number">4+</span>
+                            <span class="highlight-text">Projects Completed</span>
+                        </div>
+                        <div class="highlight-card">
+                            <span class="highlight-number">2</span>
+                            <span class="highlight-text">Certifications</span>
+                        </div>
+                        <div class="highlight-card">
+                            <span class="highlight-number">8.54</span>
+                            <span class="highlight-text">Current CGPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h2 class="section-title">Skills & Expertise</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category" data-category="languages">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">C, C++, Python</span>
+                                <span class="skill-level advanced">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Java, C#</span>
+                                <span class="skill-level intermediate">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-category="databases">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            </svg>
+                        </div>
+                        <h3>Databases</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-level advanced">Advanced</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-level advanced">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-category="professional">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3>Professional Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><span class="skill-name">Agile Methodologies</span></div>
+                            <div class="skill-item"><span class="skill-name">Problem Solving</span></div>
+                            <div class="skill-item"><span class="skill-name">Team Management</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-category="technical">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <h3>Technical Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><span class="skill-name">UI/UX Design</span></div>
+                            <div class="skill-item"><span class="skill-name">Frontend Development</span></div>
+                            <div class="skill-item"><span class="skill-name">Technical Documentation</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-category="data">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3>Data Knowledge</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><span class="skill-name">Data Mining</span></div>
+                            <div class="skill-item"><span class="skill-name">Data Preprocessing</span></div>
+                            <div class="skill-item"><span class="skill-name">Classification Techniques</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category" data-category="tools">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3>Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item"><span class="skill-name">Git</span></div>
+                            <div class="skill-item"><span class="skill-name">VS Code</span></div>
+                            <div class="skill-item"><span class="skill-name">Figma</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card" data-type="team">
+                        <div class="project-header">
+                            <span class="project-type">Team Project</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View project">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Smart Health Verse</h3>
+                        <p class="project-description">Mobile application to identify skin diseases using image input, store hospital reports and receipts, and book doctor appointments.</p>
+                        <div class="project-tech">
+                            <span>Mobile App</span>
+                            <span>Image Processing</span>
+                            <span>Healthcare</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-type="solo">
+                        <div class="project-header">
+                            <span class="project-type">Solo Project</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View project">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Welding Company Web Application</h3>
+                        <p class="project-description">Web platform to explore company services and solutions with a modern, responsive design.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                            <span>Node.js</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-type="solo">
+                        <div class="project-header">
+                            <span class="project-type">Solo Project</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View project">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Task Management Application</h3>
+                        <p class="project-description">Flutter frontend application to manage daily tasks with an intuitive and clean interface.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Mobile</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-type="team">
+                        <div class="project-header">
+                            <span class="project-type">Team Project</span>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View project">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Invoice Data Extraction</h3>
+                        <p class="project-description">Application that extracts and processes data from invoices using advanced parsing techniques.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>SQL</span>
+                            <span>Node.js</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">04</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Current</span>
+                            <h3>M.Sc Software Systems</h3>
+                            <p class="timeline-institution">Kongu Engineering College</p>
+                            <p class="timeline-detail">CGPA: 8.54</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023</span>
+                            <h3>Higher Secondary Education</h3>
+                            <p class="timeline-institution">KSR Matriculation Higher Secondary School</p>
+                            <p class="timeline-detail">Percentage: 75%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">05</span>
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Oracle Cloud Infrastructure 2025</h3>
+                        <p>AI Foundations Associate</p>
+                        <span class="cert-badge">Certified</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Oracle APEX Cloud Developer</h3>
+                        <p>Certified Professional</p>
+                        <span class="cert-badge">Certified</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="achievements section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">06</span>
+                    <h2 class="section-title">Achievements</h2>
+                </div>
+                <div class="achievements-list">
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>TNPSC – 2025</h3>
+                            <p>Successfully completed the Tamil Nadu Public Service Commission examination</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="languages section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">07</span>
+                    <h2 class="section-title">Languages</h2>
+                </div>
+                <div class="languages-grid">
+                    <div class="language-card">
+                        <h3>Tamil</h3>
+                        <div class="language-level">
+                            <div class="level-bar" style="--level: 95%"></div>
+                        </div>
+                        <span class="level-text">Advanced</span>
+                    </div>
+                    <div class="language-card">
+                        <h3>English</h3>
+                        <div class="language-level">
+                            <div class="level-bar" style="--level: 90%"></div>
+                        </div>
+                        <span class="level-text">Advanced</span>
+                    </div>
+                    <div class="language-card">
+                        <h3>Hindi</h3>
+                        <div class="language-level">
+                            <div class="level-bar" style="--level: 50%"></div>
+                        </div>
+                        <span class="level-text">Writing Only</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">08</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p class="contact-intro">I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                        <div class="contact-links">
+                            <a href="mailto:kavyasekar0099@gmail.com" class="contact-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                <span>kavyasekar0099@gmail.com</span>
+                            </a>
+                            <a href="https://github.com/kavya-sekar24" target="_blank" rel="noopener noreferrer" class="contact-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                <span>github.com/kavya-sekar24</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kavya-sekar-876039296/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                                <span>LinkedIn Profile</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-name">Kavya Sekar</p>
+                <p class="footer-tagline">Crafted with passion & code</p>
+                <div class="footer-social">
+                    <a href="mailto:kavyasekar0099@gmail.com" aria-label="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/kavya-sekar24" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kavya-sekar-876039296/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+                <p class="footer-copyright">&copy; 2025 Kavya Sekar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
